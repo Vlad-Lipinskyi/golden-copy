@@ -1,0 +1,34 @@
+a{
+    text-decoration: none;
+    list-style: none;
+}
+.header-logo {
+  font-family: "Bilbo Swash Caps";
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.14;
+  letter-spacing: 1.3px;
+  color: #fed136;
+}
+
+.header-link{
+ font-family: 'Montserrat';;
+font-weight: 400;
+font-size: 14px;
+line-height: 2.93;
+text-transform: uppercase;
+color: #FED136;
+}
+
+/* секція сервісів */
+
+.services-title{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.88
+    color: #222222;
+}
+
+.services-name
