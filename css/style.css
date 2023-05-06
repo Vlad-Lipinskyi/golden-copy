@@ -1,6 +1,14 @@
-a{
-    text-decoration: none;
-    list-style: none;
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: 942px;
+  outline: solid red;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header-logo {
   font-family: "Bilbo Swash Caps";
@@ -8,27 +16,90 @@ a{
   font-size: 36px;
   line-height: 1.14;
   letter-spacing: 1.3px;
+
   color: #fed136;
 }
 
-.header-link{
- font-family: 'Montserrat';;
-font-weight: 400;
-font-size: 14px;
-line-height: 2.93;
-text-transform: uppercase;
-color: #FED136;
+.header-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.93;
+  text-transform: uppercase;
+
+  color: #fed136;
 }
 
-/* секція сервісів */
+/* секція сервіси */
 
-.services-title{
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.88
-    color: #222222;
+.services-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.88;
+  color: #222222;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.services-name
+.services-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 4.17;
+  text-align: center;
+  letter-spacing: -0.45px;
+  color: #222222;
+}
+
+.services-text {
+  font-family: "RobotoSlab";
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: -0.35px;
+  color: #777777;
+}
+
+/* секція contacts */
+
+.contacts-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.22;
+  letter-spacing: -1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.contacts-button {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #fed136;
+}
+
+.contact {
+  background-color: #222222;
+}
+
+.contacts-input::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+
+  color: #bbbbbb;
+}
+
+.contacts-coment::placeholder {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: -0.35px;
+  text-transform: uppercase;
+  color: #bbbbbb;
+}
