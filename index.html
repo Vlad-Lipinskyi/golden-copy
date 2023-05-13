@@ -11,8 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps&family=Montserrat:wght@300;700&family=Roboto+Slab&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="./css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -79,23 +85,37 @@
         <div class="container">
           <h2 class="contacts-title">Contact us</h2>
           <form class="contacts-form">
-            <input
-              placeholder="your name *"
-              type="text"
-              class="contacts-input"
-            />
-            <input
-              placeholder="your e-mail *"
-              type="text"
-              class="contacts-input"
-            />
-            <input placeholder="subject *" type="text" class="contacts-input" />
-            <textarea
-              placeholder="Your message *"
-              cols="30"
-              rows="10"
-              class="contacts-coment"
-            ></textarea>
+            <div class="contacts-flex">
+              <ul class="contacts-list">
+                <li class="contacts-item">
+                  <input class="input"
+                    placeholder="YOUR NAME *"
+                    type="text"
+                    class="contacts-input"
+                  />
+                </li>
+                <li class="contacts-item">
+                  <input class="input"
+                    placeholder="YOUR E-MAIL *"
+                    type="text"
+                    class="contacts-input"
+                  />
+                </li>
+                <li class="contacts-item">
+                  <input class="input"
+                    placeholder="SUBJECT *"
+                    type="text"
+                    class="contacts-input"
+                  />
+                </li>
+              </ul>
+              <textarea class="textarea"
+                placeholder="YOUR MESSAGE *"
+                cols="30"
+                rows="10"
+                class="contacts-coment"
+              ></textarea>
+            </div>
             <button class="contacts-button">Send Message</button>
           </form>
         </div>
