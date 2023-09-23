@@ -75,6 +75,22 @@ body {
   color: #777777;
 }
 
+.services-icon{
+  fill: #FED136;
+}
+
+.services-box{
+  border-radius: 50%;
+  border: solid 3px #FED136;
+  width: 70px;
+  height: 69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* секція contacts */
 
 .contacts-title {
@@ -177,6 +193,3 @@ body {
   border-radius: 2px;
 }
 
-.contacts-button{
-  
-}
